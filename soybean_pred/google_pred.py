@@ -50,7 +50,7 @@ def predict_json(project, region, model, instances, version=None):
     
 def predict_soybean_class(img_array):
     class_names = ['broadleaf', 'grass', 'soil',  'soybean']
-    PROJECT = 'lucid-honor-295522'
+    PROJECT = 'fifth-upgrade-295701'
     REGION = 'us-central1'
     MODEL = 'soybean_class'
     INSTANCES = img_array.tolist()
